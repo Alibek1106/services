@@ -94,4 +94,8 @@
     .contact-us-modal{
         width: 80%;
     }
+
+    .contact-us-modal{
+        padding: 25px 30px;
+    }
 }
