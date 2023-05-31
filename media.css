@@ -57,6 +57,10 @@
         display: inline;
         margin-top: 10px;
     }
+
+    .contact-us-modal{
+        margin: 30% auto;
+    }
 }
 
 @media screen and (max-width: 710px) {
@@ -117,6 +121,7 @@
 
     .contact-us-modal{
         padding: 25px 30px;
+        margin: 45% auto;
     }
 
     .logo img{

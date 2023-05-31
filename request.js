@@ -11,9 +11,7 @@ document.getElementById('request-form').addEventListener('submit', function(e) {
 
     let message = `<b>Заявка с сайта!</b>\n`;
     message += `<b>Отправитель: </b> ${ this.name.value }\n`;
-    message += `<b>Телефон: </b> ${this.phone.value }\n`;
-    message += `<b>Почта: </b> ${ this.email.value }\n`;
-    message += `<b>Сообщение: </b> ${ this.message.value }`;
+    message += `<b>Телефон: </b> ${this.phone.value }`;
 
     axios.post(URL_API, {
         chat_id: CHAT_ID,
