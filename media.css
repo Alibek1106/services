@@ -39,6 +39,26 @@
     }
 }
 
+@media screen and (max-width: 820px) {
+    .header-links{
+        display: none;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+
+    .hero-btn-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-btn{
+        display: inline;
+        margin-top: 10px;
+    }
+}
+
 @media screen and (max-width: 710px) {
     .services-p-sides{
         display: block;
@@ -101,5 +121,14 @@
 
     .logo img{
         width: 150px;
+    }
+
+    .call-btn{
+        font-size: 16px;
+        padding: 8px 13px;
+    }
+
+    .hero-btn-container{
+        align-items: start;
     }
 }

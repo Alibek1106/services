@@ -18,9 +18,14 @@
     <div class="container">
       <div class="header-row">
         <a class="logo" href="#">
-          <img src="images/logo.png" alt="">
+          <img src="images/logo.svg" alt="">
         </a>
-        <a href="tel:+7000000">+7 000 000 00 00</a>
+        <ul class="header-links">
+          <li class="header-link"><a href="#about-us">О нас</a></li>
+          <li class="header-link"><a href="#services">Услуги</a></li>
+          <li class="header-link"><a href="#contacts">Контакты</a></li>
+          <li class="header-link"><a href="tel:#">+7 000 000 00 00</a></li>
+        </ul>
       </div>
     </div>
   </header>
@@ -28,13 +33,16 @@
     <section class="hero">
       <div class="container">
         <div class="hero-text">
-          <h1>Сервисный центр "NAME"</h1>
+          <h1>WE SERVICE</h1>
           <p>"Экспертный ремонт и профессиональное обслуживание бытовой техники"</p>
-          <button id="open-modal1">Отправить заявку</button>
+          <div class="hero-btn-container">
+            <button id="open-modal1">Отправить заявку</button>
+            <a href="#" class="call-btn">Экспресс звонок</a>
+          </div>
         </div>
       </div>
     </section>
-    <section class="about-us">
+    <section class="about-us" id="about-us">
       <div class="container">
         <div class="about-us-left">
           <h4 class="headers">О нас</h4>
@@ -53,7 +61,7 @@
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <h4 class="headers">Какие услуги мы предлагаем</h4>
         <div class="services-box">
@@ -134,7 +142,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="container">
         <h4 class="headers">Наши контакты</h4>
         <div class="contacts-sides">
@@ -166,7 +174,7 @@
   <footer class="footer">
     <div class="container">
       <h4 class="headers">
-        “Название компании”
+        WE SERVICE
       </h4>
       <div class="footer-links">
         <a href="#"><img src="images/inst.svg" alt=""></a>
@@ -207,3 +215,4 @@
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>
+<!---->
