@@ -237,7 +237,7 @@ iframe{
 .contacts-right-block{
     font-weight: 500;
     margin-bottom: 71px;
-    padding-left: 42px;
+    padding: 3px 0 3px 42px;
     background-repeat: no-repeat;
     background-position: 0 50%;
 }
